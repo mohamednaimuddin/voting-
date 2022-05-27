@@ -76,49 +76,41 @@
 
 <body>
 
-    <h2>Complaint Form</h2>
+    <div style="background-color: black;align-items: center;text-align: center; width:100%;" class="projects-section bg-light" id="COMPLAINT">
+        <div style="background-color: black;text-align: center;width:100%;" class="container px-4 px-lg-5">
 
-    <div class="container">
-        <form style="align-items: center;text-align:center;height: 50%;background-color:black;" class="row g-3" action="https://formsubmit.co/mohammednaimuddin123@gmail.com" method="POST" class="email">
-            <div class="row">
-                <div class="col-25">
-                    <label for="fname">First Name</label>
-                </div>
-                <div class="col-75">
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="lname">Last Name</label>
-                </div>
-                <div class="col-75">
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                </div>
+            <div style="text-align: center;align-items: center;" class="section-title">
+                <h2 style="color: #f5dfe5;">COMPLAINT FORM</h2><br>
             </div>
 
-            <div class="row">
-                <div class="col-25">
-                    <label for="lname">email</label>
+            <div style="text-align: center;" class="row" data-aos="fade-up">
+
+                <div style="text-align: center;" class="col-lg-6">
+                    <form style="align-items: center;text-align:center;height: 50%;background-color:black;" class="row g-3" action="https://formsubmit.co/mohammednaimuddin123@gmail.com" method="POST" class="email">
+
+                        <div style="text-align: center;" class="row">
+                            <div style="align-items: center;text-align:center;" class="col-md-6 form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div style="align-items: center;text-align:center;" style="text-align: center;" class="col-md-6 form-group mt-3 mt-md-0">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div style="text-align: center;" class="form-group mt-3">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div style="text-align: center;" class="form-group mt-3">
+                            <textarea class="form-control" name="complaint" rows="5" placeholder="Complaint" required></textarea>
+                        </div>
+
+                        <div style="text-align: center; " class="text-center ">
+                            <main><button><span>submit</span></button></main>
+                        </div>
+                    </form>
                 </div>
-                <div class="col-75">
-                    <input type="email" id="email" name="email" placeholder="Your email ...">
-                </div>
+
             </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="subject">Subject/complaints</label>
-                </div>
-                <div class="col-75">
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <input type="submit" value="Submit">
-            </div>
-        </form>
-    </div>
+        </div>
 
 </body>
 
