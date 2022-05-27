@@ -2,6 +2,7 @@ body {
     background-color: black;
     background-image: url("assets/bg.jpg");
     background-repeat: repeat-x;
+    width: 100%;
 }
 
 * {
