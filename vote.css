@@ -1,0 +1,32 @@
+body {
+    background-color: #99CCCC;
+}
+
+
+/*nav bar starts */
+
+nav ol {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+nav ol li {
+    margin: 50px;
+}
+
+nav ol li a {
+    padding: 12px 24px;
+    background: darkgray;
+    box-shadow: 6px 6px 12px darkgray, -6px 12px black;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+}
+
+nav ol li a:hover,
+input:hover {
+    box-shadow: inset 6px 6px 12px green, inset -6px -6px 12px #FF5252;
+    color: red;
+}
